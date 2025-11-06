@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ABINEYA M| Civil Engineer</title>
+  <title>INIYA SRI| Civil Engineer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -33,7 +33,7 @@
 </head>
 <body>
   <header>
-    <h1>ABINEYA M</h1>
+    <h1>INIYA SRI</h1>
     <p>Civil Engineering Student | GCE Salem</p>
   </header>
 
