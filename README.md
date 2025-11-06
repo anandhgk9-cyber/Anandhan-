@@ -3,45 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SABARISH B| Civil Engineer</title>
+  <title>Anandhan GK | Civil Engineering Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      color: #333;
-      text-align: center;
       margin: 0;
-      padding: 0;
+      background: #0f172a;
+      color: #e2e8f0;
     }
     header {
-      background: #0078d7;
-      color: white;
-      padding: 30px 0;
-      font-size: 1.5em;
+      background: #1e293b;
+      color: #fff;
+      text-align: center;
+      padding: 40px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      color: #94a3b8;
+    }
+    nav {
+      background: #334155;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
     }
     section {
-      margin: 20px;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
     }
     h2 {
-      color: #0078d7;
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .project, .skill {
+      background: #1e293b;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      background: #1e293b;
+      padding: 20px;
+      margin-top: 20px;
+      color: #94a3b8;
+    }
+    .contact-btn {
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>SABARISH B</h1>
+    <h1>Anandhan GK</h1>
     <p>Civil Engineering Student | GCE Salem</p>
+    <p>DOB: 19-11-2025</p>
   </header>
 
-  <section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
     <h2>About Me</h2>
-    <p>I'm a passionate Civil Engineering student interested in structures, surveying, and design. My goal is to build sustainable and innovative infrastructure.</p>
+    <p>Hi! I’m <b>Anandhan GK</b>, a passionate Civil Engineering student from Government College of Engineering, Salem. I’m interested in Structural Design, Surveying, and Construction Management. My goal is to become a professional Structural Engineer.</p>
   </section>
 
-  <section>
-    <h2>Details</h2>
-    <p
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Reinforced Concrete Beam Design</h3>
+      <p>Designed and analyzed a simply supported RCC beam using IS 456:2000. Calculated bending moments, shear forces, and provided reinforcement details.</p>
+    </div>
+
+    <div class="project">
+      <h3>Topographic Survey using Total Station</h3>
+      <p>Conducted field survey, collected data, and plotted contour maps using AutoCAD Civil 3D.</p>
+    </div>
+
+    <div class="project">
+      <h3>Highway Pavement Design</h3>
+      <p>Designed flexible pavement based on CBR method and estimated the total material quantity.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill">AutoCAD</div>
+    <div class="skill">STAAD Pro (Basics)</div>
+    <div class="skill">Surveying & Total Station</div>
+    <div class="skill">Concrete Design (IS 456)</div>
+    <div class="skill">Estimation & Quantity Survey</div>
+    <div class="skill">MS Excel</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to collaborate or see my work, feel free to contact me!</p>
+    <p>Email: <a href="mailto:yourmail@example.com" style="color:#38bdf8;">yourmail@example.com</a></p>
+    <a class="contact-btn" href="mailto:yourmail@example.com">Send Email</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Anandhan GK | Civil Engineering Portfolio</p>
+  </footer>
+</body>
+</html>
