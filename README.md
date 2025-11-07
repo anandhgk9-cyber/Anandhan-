@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anandhan GK | Civil Engineering Portfolio</title>
+  <title>kavinkumar srv| Civil Engineering Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -71,7 +71,7 @@
 </head>
 <body>
   <header>
-    <h1>Anandhan GK</h1>
+    <h1>KAVINKUMAR srv</h1>
     <p>Civil Engineering Student | GCE Salem</p>
     <p>DOB: 19-11-2025</p>
   </header>
